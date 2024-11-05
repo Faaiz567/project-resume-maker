@@ -4,10 +4,10 @@
 'use client';
 
 import React, { useState } from 'react';
-import Header from '../components/Header';
-import ResumeForm from '../components/ResumeForm';
-import ResumePreview from '../components/ResumePreview';
-import ExportButton from '../components/ExportButton';
+import Header from '@/components/Header';
+import ResumeForm from '@/components/ResumeForm';
+import ResumePreview from '@/components/ResumePreview';
+import ExportButton from '@/components/ExportButton';
 import { exportToPDF } from './pdfUtils';
 
 const HomePage: React.FC = () => {
